@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Epilogue',serif;
+    background: rgb(42,42,46);
+    color: white;
+}
+.openArt {
+    position: relative;
+    max-width: 1920px;
+    width: 60%;
+    height: 600px;
+    background: rgb(25,24,56);
+    top: 175px;
+    margin: 0 auto;
+}
+
+.openArt img {
+    position: absolute;
+    width: 65%;
+    height: 600px;
+    top: 1px;
+    left: 400px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.openArt .about {
+    position: relative;
+    width: 30%;
+    margin-left: 60px;
+}
+
+.openArt .open {
+   position: absolute;
+   top: 3rem;
+   margin-left: 60px;
+}
+
+.openArt-text {
+    position: absolute;
+    margin-top: 10rem;
+    font-weight: 300;
+    font-size: 40px;
+    color: #BA59F0;
+    font-family: 'Epilogue';
+}
+
+.openArt-text span {
+    color: linear-gradient(149.06deg, #00DFBA 24.74%, #048AFE 75.26%);
+}
+
+.big-text {
+    position: absolute;
+    margin-top: 12.5rem;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.about p {
+    position: absolute;
+    margin-top: 17rem;
+    width: 100%;
+    line-height: 35px;
+}
+
+button {
+    position: absolute;
+    margin-top: 32rem;
+    padding: 15px 40px;
+    background: linear-gradient(114.44deg, #0038F5 0%, #9F03FF 100%);
+    border-radius: 16px;
+    border: none;
+    color: white;
+}
+
